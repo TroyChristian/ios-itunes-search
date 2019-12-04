@@ -9,7 +9,9 @@
 import UIKit
 
 class SearchResultsTableViewController: UITableViewController {
-
+    @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
